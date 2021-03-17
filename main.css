@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+*,
+*:before,
+*after {
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+
+.container {
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 960px;
+
+}
+
+/*
+        ======================================================
+        Clearfix
+        ======================================================
+*/
+
+.group:before,
+.group:after {
+        content: "";
+        display: table;
+}
+.group:after {
+        clear: both;
+}
+.group {
+        clear: both;
+}
+
+.col-1-3{
+	width: 28%;
+}
+.col-2-3{
+	width: 66%;
+}
+.col-1-3,
+.col-2-3{
+	display: inline-block;
+	vertical-align: top;
+}
+.grid,
+
+.container,
+.grid{
+	margin: 0 auto;
+	width: 960px;
+}
+
+/*
+        ======================================================
+        Typography
+        ======================================================
+*/
+
+h1, h3, h4, h5, p {
+        margin-bottom: 22px;
+}
+
+h3, h4 {
+        color: #B0C4DE;
+}
+
+h1 {
+        color: silver;
+        font-family: 'Charm';
+        font-size: 36px;
+        line-height: 44px;
+}
+
+h2 {
+        font-size: 24px;
+        line-height: 44px;
+        color: #F0FFF0;
+}
+
+h3 {
+        font-size: 21px;
+}
+
+h4 {
+        font-size: 18px;
+}
+
+h5 {
+        color: #a9b2b9;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+}
+
+strong {
+        font-weight: 400;
+}
+
+/*
+        ======================================================
+        Buttons
+        ======================================================
+*/
+
+.btn {
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0;
+        color: #fff;
+        cursor: pointer;
+        font-weight: 400;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+}
+
+.btn-alt {
+        border: 1px solid grey;
+        padding: 10px 30px;
+}
+
+.btn-alt:hover {
+        background: #fff;
+        color: #648880;
+}
+
+/*
+        ======================================================
+        Home
+        ======================================================
+*/
+
+.main {
+        padding: 50px 80px 66px 80px;
+        line-height: 44px;
+        text-align: center;
+}
+
+.main h2 {
+        font-size: 36px;
+}
+
+.main p {
+        font-size: 24px;
+        font-weight: 100;
+}
+
+.logo {
+        float: left;
+        padding: 50px 100px 70px 80px;
+        font-size: 55px;
+        line-height: 44px;
+        font-weight: 100;
+        letter-spacing: .5px;
+        background-image: url('gambar/logo.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position-x: 0%;
+        background-position-y: 40%;
+}
+
+.tagline {
+        margin: 66px 0 22px 0;
+        text-align: right;
+}
+
+.primary-nav {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: .5px;
+        text-transform: uppercase;
+}
+
+.row{
+  text-align: center;
+	background-color:rgba(5,5,5,0.8);
+	min-width: 960px;
+	padding: 30px 0 44px 0;
+}
+
+.primary-footer small {
+        float: left;
+        font-weight: 400;
+}
+
+.primary-footer {
+        padding-bottom: 44px;
+        padding-top: 44px;
+        color: #648880;
+        font-size: 14px;
+
+}
+.primary-footer small {
+        float: left;
+}
+
+/*
+        ======================================================
+        Custom Styles
+        ======================================================
+*/
+
+body {
+        background:#333 url(https://static.tumblr.com/maopbtg/a5emgtoju/inflicted.png) repeat;
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        color: 	#B0C4DE	;
+}
+/*
+        ======================================================
+        Links
+        ======================================================
+*/
+
+a {
+        color: #648880;
+        text-decoration: none;
+}
+a:hover {
+        color: #a9b2b9;
+}
+
+.primary-header a,
+.primary-footer a {
+        color: #fff;
+}
+
+.primary-header a:hover,
+.primary-footer a:hover {
+        color: silver ;
+}
+
+/*
+        ======================================================
+        Navigation
+        ======================================================
+*/
+
+.nav {
+        text-align: right;
+}
